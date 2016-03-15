@@ -1,0 +1,157 @@
+body{
+	background-color: #DDDDDD;
+	margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-family: Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, WenQuanYi Micro Hei, sans-serif;
+}
+.content{
+	margin-left: 100px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 20px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color:#888888; 
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #888888;
+}
+.head1{
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.head2{
+	font-size: 15px;
+	color: #666666;
+}
+.head3{
+	font-size: 10px;
+	color: #888888;
+}
+header{
+	background-color: #444444;
+	height: 78px;
+	margin-bottom: 15px;
+}
+#head h1{
+	margin-left: 100px;
+	float: left;
+	color: red;
+}
+#head ul{
+	margin-right: 150px;
+}
+#head ul li {
+	float: right;
+	color: #000000;
+
+}
+#head a{
+	color: #FFFFFF;
+}
+#head ul li a{
+	width:80px;
+	height:28px;
+	line-height:28px;
+	color:#FFF;
+	margin:5px 10px;
+	font-size:12px;
+	display:block;
+	text-decoration:none; 
+}
+.photo_area{
+	width: 200px;
+	height: 150px;
+	margin-left: 50px;
+	border:1px solid #666666;
+	margin-bottom: 10px;
+}
+.photo{
+	width: 130px;
+	height: 100px;
+	margin-left: 30px;
+}
+.text{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+#paiming li{
+	font-weight: bold;
+}
+table{
+	width: 100%;
+	border:0;
+}
+th{
+	background-color: #333;
+	border:0;
+	color: #FFFFFF;
+}
+#last{
+	background-color: #DDDDDD;
+}
+#celan h2{
+	font-size: 16px;
+}
+#celan form{
+	font-size: 14px;
+}
+#div1{
+	padding-left: 200px;
+}
+#text1{
+	padding-left: 110px;
+	color: #AAAAAA;
+}
+#div2_1{
+	padding-left: 225px;
+}
+#div2_2{
+	padding-top: 10px;
+	padding-left: 196px;
+}
+#text2{
+	padding-left: 305px;
+	color: #AAAAAA;
+}
+#div3{
+		padding-left: 265px;
+}
+#div4{
+		padding-left: 265px;
+}
+#div5{
+		padding-left: 265px;
+}
+#div6{
+		padding-left: 235px;
+}
+#detail{
+	height: 120px;
+	width: 600px;
+}
+#sub{
+	height: 50px;
+	width: 100%;
+	background-color: #0000FF;
+	margin-top: 20px;
+	color: #FFFFFF;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	font-size: 20px;
+}
+#foot{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	height: 60px;
+	font-size: 15px;
+	padding-top: 20px;
+}
