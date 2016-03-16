@@ -1,0 +1,41 @@
+#body{
+	background-color: #eee;
+	height: auto;
+}
+div{
+		box-sizing: border-box;
+	}
+#space1,#space2,#space3 ,#body{
+	border:1px solid #999;
+	padding: 20px;
+}
+#space1{
+	float: left;
+	width: 200px;
+}
+#space2{
+	margin-left: 220px;
+	margin-right: 140px;
+}
+#space3{
+	width: 120px;
+	float: right;
+}
+#space3 img{
+	border:1px solid #999;
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+#logo{
+	float: left;
+	width: 120px;
+}
+#team_name{
+	padding-top: 20px;
+	float: right;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
