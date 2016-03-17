@@ -1,0 +1,114 @@
+html{
+	background-color: gray;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 980px;
+	height: 1386px;
+	margin-left: 150px;
+	background-color: #ffffff;
+	margin-top: 50px;
+}
+header{
+	height: 61px;
+	margin-left: 30px;
+}
+header p{
+	margin: 0px;
+}
+#header-name{
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 黑体;
+}
+#header-name p{
+	padding-top: 40px;
+	padding-left: 10px;
+}
+#time{
+	float: right;
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: 黑体;
+	padding-right: 	98px;
+	margin-top: -13px;
+}
+#header-line{
+	width: 892px;
+	height: 2px;
+	background-color: #938e8c;
+}
+#div1{
+	height: 301px;		
+	margin-top: 30px;
+	margin-left: 30px;
+	background: url(images/horse.jpg) no-repeat;
+	background-size: 641px 301px;
+}
+#div1-leftmark{
+	 width: 191px;  
+	 height: 301px;  
+	 background: #72A664;  
+	 opacity: 0.5;  
+	 float: left; 
+}
+#div1-rightmark{
+	 width: 191px;  
+	 height: 301px;  
+	 background:#E1ABC3;  
+	 opacity: 0.5;  
+	 margin-left: 450px;
+}
+#div1-right{
+	float: right;
+	width: 221px;
+	height: 301px;
+	margin-right: 40px;
+}
+#div1-line{
+	width: 203px;
+	height: 2px;
+	background-color: #cc8091;
+}
+#div1-text1{
+	color: #000000;
+	font: 21px 微软雅黑 ;
+	text-decoration: underline;
+	line-height: 4px;
+}
+#div1-text1 :first-letter{
+	font-size: 24px;
+}
+#div1-text2{
+	font: 12px 楷体;
+	color: #676767;
+	line-height: 10px;
+}
+#div1-text3{
+	font: 116px 微软雅黑 ;
+	font-style: italic;
+	color: #75b86b;
+}
+#div1-text4{
+	font: 55px 微软雅黑;
+	color: #cc8091;
+}
+#div1-text56{
+	float: right;
+	margin-right: 45px;
+	margin-top: 14px;
+}
+#div1-text5{
+	position: relative;
+	font: 21px 微软雅黑;
+	color: #cc8091;
+	top:10px;
+}
+#div1-text6{
+	font: 12px 微软雅黑;
+	color:#cc8091;
+}
