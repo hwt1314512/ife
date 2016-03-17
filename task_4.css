@@ -1,25 +1,175 @@
-.body{
-	position: absolute;
-	background-color: #ccc;
-	width: 400px;
-	height: 200px;
-	top: 50%;
-	left: 50%;
-	margin-top: -100px;
-	margin-left: -200px;
+body{
+	background-color: #DDDDDD;
+	margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+    font-family: Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, WenQuanYi Micro Hei, sans-serif;
 }
-.circle_rightdown{
-	width: 50px;
-	height: 50px;
-	border-radius: 0 0 50px 0;
-	background-color: #fc0;
+ul{
+	margin: 0px;
 }
-.circle_lefttop{
-	width: 50px;
+.content{
+	margin-left: 100px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 20px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color:#888888; 
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #888888;
+}
+.contentt{
+	margin-right: 415px;
+	margin-left: 15px;
+}
+.head1{
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.head2{
+	font-size: 15px;
+	color: #666666;
+}
+.head3{
+	font-size: 10px;
+	color: #888888;
+}
+header{
+	background-color: #444444;
+	height: 78px;
+	margin-bottom: 15px;
+}
+#head h1{
+	margin-left: 100px;
+	float: left;
+	color: red;
+}
+#head ul{
+	margin-right: 0px;
+}
+#head ul li {
+	float: right;
+	color: #000000;
+
+}
+#head a{
+	color: #FFFFFF;
+}
+#head ul li a{
+	width:100px;
+	height:28px;
+	line-height:28px;
+	color:#FFF;
+	font-size:13px;
+	padding-top: 20px;
+	display:block;
+	text-decoration:none; 
+}
+.photo_area{
+	width: 200px;
+	height: 150px;
+	margin-left: 50px;
+	border:1px solid #666666;
+	margin-bottom: 10px;
+}
+.photo{
+	width: 130px;
+	height: 100px;
+	margin-left: 30px;
+}
+.text{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+#images{
+	display: flex;
+	flex-wrap: wrap;
+}
+#paiming li{
+	font-weight: bold;
+}
+table{
+	width: 100%;
+	border:0;
+}
+th{
+	background-color: #333;
+	border:0;
+	color: #FFFFFF;
+}
+#last{
+	background-color: #DDDDDD;
+}
+#celan{
+	float: right;
+	width: 350px;
+	margin-right: 15px;
+}
+#celan h2{
+	font-size: 16px;
+}
+#celan form{
+	font-size: 14px;
+}
+#div1{
+	padding-left: 5%;
+}
+#text1{
+	padding-left: 30%;
+	color: #AAAAAA;
+}
+#div2_1{
+	padding-left: 13%;
+}
+#div2_2{
+	padding-top: 2.5%;
+	padding-left: 5%;
+}
+#text2{
+	padding-left: 34%;
+	color: #AAAAAA;
+}
+#div3{
+		padding-left: 25%;
+}
+#div4{
+		padding-left: 25%;
+}
+#div5{
+		padding-left: 25%;
+}
+#div6{
+		padding-left:17%;
+}
+#detail{
+	height: 100px;
+	width: 70%;
+}
+#span_text{
+	float: left;
+}
+#sub{
 	height: 50px;
-	border-radius: 50px 0 0 0;
-	background-color: #fc0;
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	width: 100%;
+	background-color: #0000FF;
+	margin-top: 20px;
+	color: #FFFFFF;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	font-size: 20px;
+}
+#foot{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	height: 60px;
+	font-size: 15px;
+	padding-top: 20px;
 }
