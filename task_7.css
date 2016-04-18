@@ -1,0 +1,88 @@
+body{
+	width: 1280px;
+}
+.daohang{
+	width: 100%;
+	height: 56px;
+}
+.daohang-1{
+	float: left;
+	margin-left: 50px;
+}
+.daohang-1 span{
+	font: 21px 黑体;
+}
+.daohang-2{
+	float: right;
+	margin-right: 50px;
+	padding-left: 12px;
+	margin-top: 10px;
+}
+.daohang-2 a{
+	text-decoration: none;
+	font: 14px 微软雅黑;
+	color: #e74f4d;
+}
+.daohang-3 ul  {
+	float: right;
+	list-style-type: none;
+	margin: 0px;
+	margin-top: 12px;
+}
+.daohang-3 li{
+	float: left;
+	padding-left: 30px;
+	text-align: center;
+}
+.daohang-3 a{
+	text-decoration: none;
+}
+.daohang-3 a:hover{
+	border-bottom: 5px solid black;
+	border-bottom-color: #e74f4d
+}
+.daohang-3 ul li a{
+	width:70px;
+	height:40px;
+	line-height:28px;
+	font:14px 微软雅黑;
+	display:block;
+	text-decoration:none; 
+}
+.div1{
+	width: 1280px;
+	height: 690px;
+	background: url(images/p3.gif) no-repeat;
+}
+.div1-mask{
+	width: 1280px;  
+	height: 690px;  
+	background: gray;  
+	opacity: 0.4;  
+	float: left; 
+}
+.div1-text1{
+	font: 60px 微软雅黑;
+	color: #ffffff;
+	position: relative;
+	bottom: 450px;
+	left: 100px;
+}
+.div1-text2{
+	font: 21px 微软雅黑;
+	color: #ffffff;
+	position: relative;
+	bottom: 450px;
+	left: 100px;
+}
+.div1-button{
+	background-color: #e74f4d;
+	color: #ffffff;
+	position: relative;
+	bottom: 420px;
+	left: 100px;
+	border:none;
+	width: 331px;
+	height: 65px;
+	font-size: 30px;
+}
